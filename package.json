@@ -3,7 +3,7 @@
     "version":  "0.1.0",
     "private":  true,
     "type":  "module",
-    "description":  "A folder-style panel for visually organizing DSH sessions. Display-only: it keeps its own sessionId鈫抐olderId map in ~/.dsh/sim-folder.json and never touches DSH\u0027s workspace registry, session store, or built-in grouping.",
+    "description":  "A folder-style panel for visually organizing DSH sessions. Display-only: it keeps its own sessionId閳姁olderId map in ~/.dsh/sim-folder.json and never touches DSH\u0027s workspace registry, session store, or built-in grouping.",
     "main":  "./lib/index.js",
     "exports":  {
                     ".":  "./lib/index.js",
@@ -23,5 +23,18 @@
                                               "layout"
                                           ]
                            }
-            }
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/jediliu005/dsh-sim-folder.git"
+                   },
+    "license":  "MIT",
+    "keywords":  [
+                     "dsh",
+                     "dsh-plugin",
+                     "session",
+                     "folders",
+                     "sidebar",
+                     "ui"
+                 ]
 }
