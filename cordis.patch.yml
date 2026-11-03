@@ -1,0 +1,4 @@
+- insert:
+    - id: sim-folder
+      name: dsh-sim-folder
+      config: {}
